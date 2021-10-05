@@ -1,0 +1,64 @@
+div.greetingZone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+div.greetingZone__greeting {
+  font-size: 24px;
+  font-weight: 1000;
+}
+div.greetingZone__greeting_sub {
+  margin: 20px 0px;
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+}
+
+form.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+form.login-form input {
+  padding: 20px 0px;
+  margin: 0px 15px;
+  border: 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+form.login-form input:nth-child(2) {
+  margin-bottom: 20px;
+}
+form.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.login-form input:focus {
+  border-color: var(--yellow);
+}
+
+form.login-form input[type="submit"] {
+  padding: 10px 0px;
+  font-weight: 650;
+  margin: 5px 15px;
+  border: 0px;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: var(--yellow);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+form.login-form input[type="submit"]:hover {
+  background-color: var(--yellow-hover);
+  color: rgba(0, 0, 0, 0.4);
+}
+form.login-form a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
