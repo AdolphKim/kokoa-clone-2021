@@ -2,8 +2,11 @@
   --yellow: #f7d500;
   --yellow-hover: #fdec7d;
   --gray: #f9f9fa;
+  --gray-faint: rgba(0, 0, 0, 0.4);
   --font: #200101ab;
   --border-color: rgba(0, 0, 0, 0.2);
+
+  --main-border: 1px solid var(--border-color);
 
   --horizontal-space: 25px;
 }

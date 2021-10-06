@@ -24,13 +24,16 @@
 }
 
 .find__openchat {
-  height: 50vh;
+  height: 80vh;
 }
 .find__openchat__list {
   padding: 15px 0px;
 }
 .find__openchat__listitem {
-  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 30px 0px;
 }
 
 .openchat__title {
@@ -41,4 +44,27 @@
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
   margin: 10px 0px;
+}
+
+.openchat__active {
+  color: pink;
+}
+.openchat__img {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.openchat__img > img {
+  width: 150px;
+  border-radius: 25%;
+}
+
+.openchat__like {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 15px;
+  border-radius: 10px;
+  right: 10px;
+  bottom: 15px;
+  color: rgb(238, 238, 238);
 }

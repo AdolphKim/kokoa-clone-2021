@@ -5,7 +5,7 @@
   display: flex;
   width: 100%;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-faint);
   justify-content: space-between;
   margin-top: 15px;
 }
@@ -14,7 +14,7 @@
 }
 .box__notice {
   display: flex;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-faint);
   font-size: 24px;
   font-weight: 600;
   height: 90%;
