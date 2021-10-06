@@ -58,7 +58,6 @@ form.login-form input[type="submit"]:hover {
 form.login-form a {
   margin-top: 10px;
   text-decoration: none;
-  color: black;
   text-align: center;
   font-size: 12px;
 }

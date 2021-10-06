@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class = "status-bar">
+        <div class="status-bar__column"><span>No Service</span><i class="fas fa-wifi"></i></div>        
+        <div class="status-bar__column"><span>18:43</span></div>
+        <div class="status-bar__column"><span>100%</span><i class="fas fa-battery-full fa-2x"></i></i><i class="fas fa-bolt"></i></div>
+    </header>
+    <header class = "screen_header">
+        <div class ="screen_header__title"><h1>Find</h1></div>
+        <div class ="screen_header__icons">
+            <a href="#"><i class="fas fa-search fa-lg"></i></a>
+            <a href="#"><i class="fas fa-cog fa-lg "></i><span class="bedge bedge--dot-setting"></span></a>
+        </div>
+    </header>
+    <main class="main-screen">
+        <ul class="find-way">
+            <li class="find-way__list"><i class="fas fa-qrcode fa-2x"></i><span>QR Code</span></li>
+            <li class="find-way__list"><i class="fas fa-address-book fa-2x"></i><span>Add by<br>Contacts</span></li>
+            <li class="find-way__list"><span id="Find-Id-text">ID</span><i class="far fa-circle fa-2x"></i><span>Add by ID</span></li>
+            <li class="find-way__list"><i class="fas fa-envelope fa-2x"></i><span>Invite</span></li>
+        </ul>
+        <div class="box find__recommendedFriends">
+            <span class="box__title">Recommended Friends</span>
+            <span class="box__notice">You have no recommended friends.</span>
+        </div>
+        <div class="box find__openchat">
+            <div class="box__title"><span>Open Chat</span>
+                <span>Go to Openchat Home<i class="fas fa-chevron-right"></i></span>
+            </div>
+            <ul class ="find__openchat__list">
+                <li class="find__openchat__listitem">
+                    <div class="openchat__info">
+                        <h1 class="openchat__title">#BTS</h1>
+                        <h4 class="openchat__hashtag">#BTS#ARMY#FRIENDS</h4>
+                        <div class="user_component__column">
+                            <img class ="user_component__avatar--xs"src="img/logo.png" alt="">
+                            <div class ="user_component__info">
+                            <span class ="user_component__subtitle">802 members | <span class ="openchat__active">Active</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="find__openchat__listitem"></li>
+            </ul>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class ="nav__list">
+            <li class="nav__listitem">
+                <a href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__listitem">
+                <span class="bedge bedge-chat">1</span>
+                <a href="chats.html">
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__listitem">
+                <a href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__listitem">
+                <a href="more.html">
+                    <span class="nav__notification bedge bedge--dot-ellipsis"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/4a84dbfbba.js" crossorigin="anonymous"></script>
+</body>
+</html>

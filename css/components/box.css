@@ -1,0 +1,23 @@
+.box {
+  border-top: 1px solid var(--border-color);
+}
+.box__title {
+  display: flex;
+  width: 100%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.box__title i {
+  margin-left: 5px;
+}
+.box__notice {
+  display: flex;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 24px;
+  font-weight: 600;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}

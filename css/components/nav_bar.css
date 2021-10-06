@@ -1,19 +1,20 @@
-.navigation-bar {
+a {
+  color: var(--font);
+}
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  box-sizing: border-box; /*I don't want strech box*/
+  padding: 20px 50px;
+  background-color: var(--gray);
+}
+.nav__list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 15px;
 }
 
-.navigation-bar__title h1 {
-  font-size: 32px;
-  font-weight: 600;
-}
-.navigation-bar__icons {
-  display: flex;
-  align-items: baseline;
-}
-.navigation-bar__icons i {
-  margin: 0px 20px;
-  font-size: 32px;
+.nav__listitem {
+  position: relative;
 }

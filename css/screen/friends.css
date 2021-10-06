@@ -1,9 +1,14 @@
+.friends_screen {
+  margin: 0px var(--horizontal-space);
+}
 .friends__info {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0px;
-  background-color: rgba(0, 0, 0, 0.03);
+  margin-top: -15px;
+  font-weight: 500;
+  background-color: var(--gray);
 }
 
 .friends__info span {
@@ -12,59 +17,4 @@
 
 .friends__info i {
   color: rgba(0, 0, 0, 0.4);
-}
-.friends__myProfile {
-  padding: 15px 0px;
-  margin: 0px 20px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-.friends__myProfile img {
-  width: 80px;
-  border-radius: 25%;
-}
-.friends__myProfile span {
-  margin-left: 10px;
-  font-size: 24px;
-  font-weight: 600;
-}
-.friends__listFriends {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 20px;
-}
-
-.friedns__listFriends__list {
-  display: flex;
-  width: 100%;
-  font-weight: 550;
-  color: rgba(0, 0, 0, 0.4);
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.friends__listFriends__listitem {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.friends__listFriends__listitem > span {
-  color: rgba(0, 0, 0, 0.4);
-}
-.friends__listFriends__listitem .fas {
-  margin-left: 5px;
-}
-.friends__listFriends__listitem_info {
-  display: flex;
-  align-items: center;
-}
-.friends__listFriends__listitem_info img {
-  width: 60px;
-  border-radius: 25%;
-  margin-right: 10px;
-}
-.friends__listFriends__listitem_info span {
-  font-size: 18px;
-  font-weight: 550;
 }

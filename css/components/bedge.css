@@ -1,0 +1,36 @@
+.bedge {
+  display: flex;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+}
+.bedge-chat {
+  left: 70%;
+  bottom: 40%;
+}
+.bedge--dot-ellipsis,
+.bedge--dot-setting {
+  width: 5px;
+  height: 5px;
+}
+
+.bedge--dot-ellipsis {
+  left: 109%;
+  bottom: 80%;
+}
+
+.bedge--dot-setting {
+  left: 109%;
+  bottom: 120%;
+}
+#Find-Id-text {
+  position: absolute;
+  font-size: 16px;
+  bottom: 65%;
+  left: 40%;
+}

@@ -1,4 +1,9 @@
 :root {
   --yellow: #f7d500;
   --yellow-hover: #fdec7d;
+  --gray: #f9f9fa;
+  --font: #200101ab;
+  --border-color: rgba(0, 0, 0, 0.2);
+
+  --horizontal-space: 25px;
 }
