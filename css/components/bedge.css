@@ -9,9 +9,21 @@
   background-color: tomato;
   color: white;
 }
+@keyframes bedgeAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px) rotateZ(30deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .bedge-chat {
   left: 70%;
   bottom: 40%;
+  animation: bedgeAnimation 1s ease-in-out infinite;
 }
 .bedge--dot-ellipsis,
 .bedge--dot-setting {
@@ -28,9 +40,16 @@
   left: 109%;
   bottom: 120%;
 }
-#Find-Id-text {
-  position: absolute;
-  font-size: 16px;
-  bottom: 65%;
-  left: 40%;
+.bedge__newChat {
+  align-self: flex-end;
+  margin-top: 10px;
+  position: relative;
+}
+
+.bedge__alertNew {
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  position: relative;
+  align-self: flex-start;
 }

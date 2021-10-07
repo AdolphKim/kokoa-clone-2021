@@ -1,0 +1,26 @@
+.icons_column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+.icons_column__icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+  transition: background-color 0.3s ease-in-out;
+}
+.icons_column__icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.icons_column__innercolumn {
+  display: flex;
+}
+.icons_column__span {
+  margin: 0px 10px;
+}
+.icons_column__spanState {
+  align-self: flex-end;
+  color: var(--gray-faint);
+}

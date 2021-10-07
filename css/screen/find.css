@@ -1,24 +1,3 @@
-.find-way {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 25px 15px;
-}
-.find-way__list {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.find-way__list span {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 20px;
-}
-
 .find__recommendedFriends {
   height: 50vh;
 }
@@ -34,6 +13,10 @@
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 30px 0px;
+  transition: background-color 0.5s ease-in-out;
+}
+.find__openchat__listitem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .openchat__title {
@@ -67,4 +50,21 @@
   right: 10px;
   bottom: 15px;
   color: rgb(238, 238, 238);
+}
+
+.openchat__like:hover {
+  will-change: transform;
+  animation: likeHeartBeat 0.3s linear infinite;
+}
+@keyframes likeHeartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+    color: red;
+  }
+  100% {
+    transform: none;
+  }
 }

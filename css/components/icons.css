@@ -1,0 +1,25 @@
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 5px 15px;
+}
+.icons__list {
+  display: flex;
+  position: relative;
+  padding: 10px 0px;
+  width: 25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons__list:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icons__list span {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}

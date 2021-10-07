@@ -7,14 +7,21 @@
 @import "components/screen_header.css";
 @import "components/box.css";
 @import "components/bedge.css";
+@import "components/icons.css";
+@import "components/icons-column.css";
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
+@import "screen/more.css";
+@import "screen/chatting.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600&display=swap");
 * {
   font-family: "Noto Sans Display", sans-serif;
   outline: none;
+}
+a {
+  text-decoration: none;
 }
 body {
   width: 100%;
@@ -24,4 +31,6 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+  margin-bottom: 50px;
+  z-index: -1;
 }

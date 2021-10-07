@@ -1,8 +1,14 @@
 .user_component {
   padding: 15px 0px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background-color 2s ease-in-out;
+  transition: border-radius 0.1s linear;
+  animation: usercomponentFadein 0.5s ease-in-out forwards;
+  left: -300px;
+  opacity: 0;
 }
 .user_component__column {
   display: flex;
@@ -58,9 +64,32 @@
   font-size: 18px;
   margin-top: 10px;
 }
+@keyframes usercomponentFadein {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(300px);
+    opacity: 1;
+  }
+}
+.user_component:hover {
+  border-radius: 25px;
+  background-color: var(--gray-faint);
+}
 
-.user_component__new_chat {
-  align-self: flex-end;
-  margin-top: 10px;
-  position: relative;
+.main-screen a:nth-of-type(1) .user_component {
+  animation-delay: 0.2s;
+}
+.main-screen a:nth-of-type(2) .user_component {
+  animation-delay: 0.4s;
+}
+.main-screen a:nth-of-type(3) .user_component {
+  animation-delay: 0.6s;
+}
+.main-screen a:nth-of-type(4) .user_component {
+  animation-delay: 0.8s;
+}
+.main-screen a:nth-of-type(5) .user_component {
+  animation-delay: 3s;
 }
