@@ -15,6 +15,20 @@
 }
 .icons__list:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.icons__list:hover i {
+  animation: iconHover 1s ease-in-out infinite;
+}
+
+@keyframes iconHover {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .icons__list span {

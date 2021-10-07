@@ -10,9 +10,11 @@
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.01);
   transition: background-color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .icons_column__icon:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 .icons_column__innercolumn {
   display: flex;

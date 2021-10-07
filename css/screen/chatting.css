@@ -1,6 +1,6 @@
 #chatting-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 80vh;
 }
 #chatting-screen .back-header,
 #chatting-screen .status-bar {
@@ -159,7 +159,6 @@
 .keyboard__input:focus-within .input__message {
   margin: 0px;
   width: 100%;
-
   transform: translateX(-30px);
 }
 
