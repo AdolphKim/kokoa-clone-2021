@@ -34,3 +34,20 @@ body {
   margin-bottom: 50px;
   z-index: -1;
 }
+#screenControler {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+@media screen and (max-width: 500px) {
+  #screenControler {
+    display: none;
+  }
+}
