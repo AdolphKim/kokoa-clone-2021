@@ -1,10 +1,6 @@
 .find__recommendedFriends {
   height: 50vh;
 }
-
-.find__openchat {
-  height: 80vh;
-}
 .find__openchat__list {
   padding: 15px 0px;
 }
